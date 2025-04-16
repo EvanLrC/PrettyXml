@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref } from "vue";
+import { computed, ref } from "vue";
 import CloseTag from "./CloseTag.vue";
 import OpenTag from "./OpenTag.vue";
 import PrettyXml from "./PrettyXml.vue";
