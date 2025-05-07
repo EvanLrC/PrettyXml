@@ -63,7 +63,7 @@ const shortClass = computed(() => {
         <PrettyXml
           v-if="item.nodeValue && item.nodeValue.startsWith('<?xml')"
           :xml="item.nodeValue"
-          :options="{ shortRecord: true }"
+          :options="{ shortRecord: props.isShort }"
         />
         <div v-else-if="item.nodeValue" class="tag__content">
           {{ item.nodeValue }}
